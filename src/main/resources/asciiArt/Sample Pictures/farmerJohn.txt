@@ -1,0 +1,43 @@
+Farmer John
+
+Farmer John 1 Hand Up (5*4)
+_[_]_
+( " )
+,(-)'
+ -"-
+Farmer John no hands
+ _[_]_
+ ( " )
+ '(-),
+   '-
+
+Farmer John
+ _[_]_
+ ( " )
+ '(-),
+  -'
+Farmer John Walking
+ [_]_
+  - )
+  |)'
+   '-
+
+
+Farmer John Alternate
+_[_]_
+( " )
+,(-)'
+ / \
+
+Fjohn Walking Right
+_[_]_
+( " )
+,(-)'
+   \
+
+Fjohn Walking Left
+ _[_]_
+ ( " )
+ '(-),
+  /
+
