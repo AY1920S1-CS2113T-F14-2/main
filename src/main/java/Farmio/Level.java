@@ -34,7 +34,7 @@ public class Level {
         }
         startMoney = farmer.getMoney();
         startWheatSeed = farmer.wheatFarm.getSeeds();
-        startWheatGreen = farmer.wheatFarm.getGreenWheat();
+        startWheatGreen = farmer.wheatFarm.getseedling();
         startWheatRipe = farmer.wheatFarm.getRipeWheat();
         startChicken = 0;
         startChickenEggs = 0;

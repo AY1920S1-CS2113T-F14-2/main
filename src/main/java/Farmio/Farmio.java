@@ -6,7 +6,8 @@ import Exceptions.FarmioException;
 import Exceptions.FarmioFatalException;
 import FrontEnd.Ui;
 
-public class Farmio {
+public class
+Farmio {
     private Storage storage;
     private Farmer farmer;
     private Ui ui;
@@ -41,7 +42,7 @@ public class Farmio {
             }
         } catch (FarmioFatalException e) {
             ui.showError(e.getMessage());
-            ui.showInfo("Encounterd fatal error. Exiting program.");
+            ui.showInfo("Encountered fatal error. Exiting program.");
         }
         //save the game before quitting
         ui.showExit();
