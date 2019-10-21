@@ -6,18 +6,12 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Level {
     ArrayList<String> narratives;
     String filePath;
-    int startMoney;
-    int startWheatSeed;
-    int startWheatGreen;
-    int startWheatRipe;
-    int startChicken;
-    int startChickenEggs;
-    int startCow;
-    int startCowMilk;
     int endMoney;
     int endWheatSeed;
     int endWheatGreen;
@@ -34,6 +28,7 @@ public class Level {
             narratives.add((String) i);
         }
         filePath = (String) object.get("file_path");
+<<<<<<< HEAD
         startMoney = farmer.getMoney();
         startWheatSeed = farmer.wheatFarm.getSeeds();
         startWheatGreen = farmer.wheatFarm.getseedling();
@@ -42,6 +37,8 @@ public class Level {
         startChickenEggs = 0;
         startCow = 0;
         startCowMilk = 0;
+=======
+>>>>>>> 9a707188d2b1bcc8dc60f9ae254fcdbdb04a61b1
         endMoney = Math.toIntExact((Long) object.get("money"));
         endWheatSeed = Math.toIntExact((Long) object.get("wheat_seed"));
         endWheatGreen = Math.toIntExact((Long) object.get("wheat_green"));
@@ -63,5 +60,18 @@ public class Level {
     public boolean checkAnswer(Farmio farmio){
         farmio.getUi().show("Checking answers now");
         return true;
+    }
+
+    public Map<String, Integer> getGoals() {
+        Map<String, Integer> dummy = new HashMap< String,Integer>();
+        dummy.put("Gold", endMoney);
+        dummy.put("Seeds", endWheatSeed);
+        dummy.put("Wheat", endWheatGreen);
+        dummy.put("Grain", endWheatRipe);
+        dummy.put("Chicken", endChicken);
+        dummy.put("Egg", endChickenEggs);
+        dummy.put("Cow", endCow);
+        dummy.put("Milk", endCowMilk);
+        return dummy;
     }
 }
