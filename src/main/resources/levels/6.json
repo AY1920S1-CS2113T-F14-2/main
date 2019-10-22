@@ -1,0 +1,17 @@
+{
+  "narratives": [
+    "Level 1.6",
+    "After selling your wheat, you can observe that you have more gold than when you first started.",
+    "Your current location is at the market. You can only plant your seeds in your farm.",
+    "Using the knowledge you have learnt above. Help farmer X get rich!",
+    "[Objective] Earn 50 gold over the next month.",
+
+  ],
+  "money": 100,
+  "wheat_seed": 0,
+  "wheat_green": 0,
+  "wheat_ripe": 0,
+  "frames": [
+    "_______________________________________________________\n     |                                _ .\n   \\ _ /          _ .               (  _ )_\n- = (_) = -     (  _ )_           (_  _(_ ,)\n   /   \\      (_  _(_ ,)\n     |\n\n\n           /_\\\n     ______|O|         /\\   /\\       ___\n    /_________\\       //\\\\ //\\\\   __|___|\n    | /\\[][][]|        ||   ||   |__|\n___||_||______|        ||   ||      |\n     _[_]_\n      (\")          \\|/                      \\|/\n     ,(_)'          |                        |\n      -\"-  ==|_\\|/__|__\\|/_|==      ==|_\\|/__|__\\|/_|==\n_______________________________________________________",
+  ]
+}
