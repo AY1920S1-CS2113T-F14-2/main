@@ -1,10 +1,10 @@
-import exceptions.FarmioException;
-import exceptions.FarmioFatalException;
+import farmio.exceptions.FarmioException;
+import farmio.exceptions.FarmioFatalException;
 import farmio.Farmio;
-import farmio.Level;
+import gameassets.Level;
 import frontend.UiDummy;
 import org.junit.jupiter.api.Test;
-import usercode.actions.*;
+import logic.usercode.actions.*;
 
 import java.util.ArrayList;
 import java.util.Arrays;

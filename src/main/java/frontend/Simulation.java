@@ -1,10 +1,10 @@
 package frontend;
 
-import exceptions.FarmioFatalException;
+import farmio.exceptions.FarmioFatalException;
 import farmio.Farmio;
-import farmio.Farmer;
-import farmio.Level;
-import farmio.Storage;
+import gameassets.Farmer;
+import gameassets.Level;
+import storage.Storage;
 
 public class Simulation {
     private static final int SLEEP_TIME = 300;
@@ -131,7 +131,7 @@ public class Simulation {
                 simulate();
                 ui.showWarning("Invalid Command for story mode!");
                 ui.show("Story segment only accepts [skip] to skip the story or pressing [ENTER] to continue with the "
-                        + "narrative.\nIf you wish to use other commands, enter [skip] followed by entering the "
+                        + "narrative.\nIf you wish to use other logic.commands, enter [skip] followed by entering the "
                         + "command of your choice.");
                 userInput = ui.getInput();
             }

@@ -1,10 +1,5 @@
 package frontend;
 
-import exceptions.FarmioFatalException;
-import farmio.Level;
-
-import java.util.Scanner;
-
 public interface Ui {
     /**
      * Removes the clear screen string if the OS is windows.

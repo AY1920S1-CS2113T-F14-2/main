@@ -3,7 +3,7 @@
 
 
 ## Features 
-commands.Command Format: 
+logic.commands.Command Format: 
 - text
 ### Feature 1.1. Resume previous version of choice: `load`
 

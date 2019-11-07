@@ -1,8 +1,7 @@
-import exceptions.FarmioException;
+import farmio.exceptions.FarmioException;
 import farmio.Farmio;
-import farmio.Farmio.Stage;
 import org.junit.jupiter.api.Test;
-import farmio.Parser;
+import logic.Parser;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class ParserTest {

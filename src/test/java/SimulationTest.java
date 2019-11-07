@@ -1,13 +1,8 @@
-import exceptions.FarmioException;
-import exceptions.FarmioFatalException;
-import farmio.Farmer;
+import farmio.exceptions.FarmioFatalException;
 import farmio.Farmio;
-import farmio.Level;
-import farmio.Storage;
-import frontend.Ui;
+import gameassets.Level;
 import frontend.UiDummy;
 import org.junit.jupiter.api.Test;
-import places.Farm;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;

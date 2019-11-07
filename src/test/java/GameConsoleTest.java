@@ -1,13 +1,8 @@
-import exceptions.FarmioFatalException;
+import farmio.exceptions.FarmioFatalException;
 import farmio.Farmio;
-import farmio.Level;
-import frontend.Simulation;
+import gameassets.Level;
 import frontend.UiDummy;
 import org.junit.jupiter.api.Test;
-
-import java.io.FileNotFoundException;
-import java.io.PrintWriter;
-import java.util.Formatter;
 
 public class GameConsoleTest {
     private Farmio farmio;

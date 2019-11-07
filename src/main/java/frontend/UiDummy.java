@@ -1,8 +1,5 @@
 package frontend;
 
-import exceptions.FarmioFatalException;
-import farmio.Level;
-
 public class UiDummy implements Ui {
     public static String uiTestString;
     public static String input;

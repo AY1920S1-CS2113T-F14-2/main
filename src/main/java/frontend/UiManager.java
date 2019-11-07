@@ -1,8 +1,5 @@
 package frontend;
 
-import exceptions.FarmioFatalException;
-import farmio.Level;
-
 import java.util.Scanner;
 
 public class UiManager implements Ui {

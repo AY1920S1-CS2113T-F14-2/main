@@ -1,8 +1,8 @@
-import exceptions.FarmioException;
+import farmio.exceptions.FarmioException;
 import org.junit.jupiter.api.Test;
-import usercode.conditions.BooleanCondition;
-import usercode.conditions.BooleanConditionType;
-import usercode.conditions.Condition;
+import logic.usercode.conditions.BooleanCondition;
+import logic.usercode.conditions.BooleanConditionType;
+import logic.usercode.conditions.Condition;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;

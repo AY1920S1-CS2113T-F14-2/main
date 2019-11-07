@@ -1,6 +1,6 @@
 package frontend;
 
-import farmio.Farmer;
+import gameassets.Farmer;
 
 import java.util.Map;
 import java.util.ArrayList;

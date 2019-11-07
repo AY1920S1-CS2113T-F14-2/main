@@ -1,10 +1,10 @@
-import exceptions.FarmioException;
+import farmio.exceptions.FarmioException;
 import org.junit.jupiter.api.Test;
-import usercode.actions.BuySeedsAction;
-import usercode.conditions.BooleanCondition;
-import usercode.conditions.BooleanConditionType;
-import usercode.tasks.DoTask;
-import usercode.tasks.TaskList;
+import logic.usercode.actions.BuySeedsAction;
+import logic.usercode.conditions.BooleanCondition;
+import logic.usercode.conditions.BooleanConditionType;
+import logic.usercode.tasks.DoTask;
+import logic.usercode.tasks.TaskList;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
