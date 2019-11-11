@@ -9,7 +9,7 @@
  [Market]        - show the the market rates of items
  [Hint]          - show hints on the current level
 
- [Task Commands] - show full list of task logic.commands
+ [Task Commands] - show full list of task commands
 
                         _[_]_  
              \|/         (")          \|/ 
