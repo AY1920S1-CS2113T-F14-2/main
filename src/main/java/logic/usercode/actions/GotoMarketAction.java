@@ -14,7 +14,7 @@ public class GotoMarketAction extends Action {
     @Override
     public void execute(Frontend frontend, Storage storage, Farmer farmer) throws FarmioFatalException {
         if (farmer.getLocation().equals("Market")) {
-            frontend.simulate("GotoMarketSimulation", 12);
+            frontend.simulate("GotoMarketSimulation", 1);
             frontend.typeWriter("You are already at the market", false);
         } else {
             farmer.changeLocation("Traveling");

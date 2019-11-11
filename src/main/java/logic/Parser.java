@@ -232,7 +232,14 @@ public class Parser {
             return new CommandLog(pageNumber);
         }
         LOGGER.log(Level.INFO, "Detected invalid command for command: " + userInput);
-        throw new FarmioException("Invalid Log Page \nPlease enter log PAGE_NUMBER.");
+        try {
+            if (!userInput.substring(0, userInput.indexOf(" ")).equals("log")) {
+                throw new FarmioException("Invalid command!");
+            }
+        } catch (IndexOutOfBoundsException e) {
+            throw new FarmioException("Invalid command!");
+        }
+        throw new FarmioException("Invalid Log Page! Please enter log PAGE_NUMBER");
     }
 
     /**
