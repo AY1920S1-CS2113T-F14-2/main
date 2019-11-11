@@ -48,7 +48,7 @@ Responsibilites: Objectives, Feedback and Log
 
 ### Yew Jing Hui
 image::https://github.com/AY1920S1-CS2113T-F14-2/main/blob/master/docs/images/exprescode.png[width="150", align="left"]
-{empty}[http://github.com/Expresscode[github]] [http://github.com/Expressscode[portfolio]]
+{empty}[http://github.com/Expresscode[github]] [https://github.com/AY1920S1-CS2113T-F14-2/main/blob/master/docs/team/%5BAY1920S1-CS2113T-F14-2%5D%5BYew%20Jing%20Hui%5DPPP.pdf[portfolio]]
 
 Role: Developer
 
