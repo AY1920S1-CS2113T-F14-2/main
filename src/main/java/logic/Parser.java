@@ -178,7 +178,7 @@ public class Parser {
         if (userInput.equals("market")) {
             return new CommandShowList("MarketList");
         }
-        if (userInput.equals("task logic.commands") || userInput.equals("task command")) {
+        if (userInput.equals("task commands") || userInput.equals("task command")) {
             return new CommandShowList("TaskCommands");
         }
         if (userInput.startsWith("do") || userInput.startsWith("if")) {
@@ -225,7 +225,7 @@ public class Parser {
         if (matcher.find()) {
             int pageNumber = 0;
             try {
-                Integer.parseInt(matcher.group("index"));
+                pageNumber = Integer.parseInt(matcher.group("index"));
             } catch (NumberFormatException e) {
                 throw new FarmioException("Your number is too big!");
             }
@@ -327,7 +327,7 @@ public class Parser {
         if (matcher.find()) {
             int taskID = 0;
             try {
-                Integer.parseInt(matcher.group("index"));
+                taskID = Integer.parseInt(matcher.group("index"));
             } catch (NumberFormatException e) {
                 throw new FarmioException("Your number is too large");
             }
@@ -350,7 +350,7 @@ public class Parser {
         if (matcher.find()) {
             int taskID = 0;
             try {
-                Integer.parseInt(matcher.group("id"));
+                taskID = Integer.parseInt(matcher.group("id"));
             } catch (NumberFormatException e) {
                 throw new FarmioException("Your number is too large!");
             }
